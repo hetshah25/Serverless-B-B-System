@@ -1,0 +1,6 @@
+
+    self.pantheon_p2_params = self.pantheon_p2_params || {};
+    var p2paramsNew = self.pantheon_p2_params;
+    p2paramsNew.routeDetails = p2paramsNew.routeDetails || {};
+    var routeDetailsMapNew = self.pantheon_p2_params.routeDetails;
+  

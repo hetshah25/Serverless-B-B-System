@@ -1,0 +1,26 @@
+.UserRegistration {
+  padding: 2rem;
+  color: rgb(245, 85, 85);
+}
+
+.UserRegistration .RegisterForm {
+  border: 2px solid steelblue;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  padding: 1rem;
+  margin: 2rem auto;
+}
+
+.UserRegistration .InputField {
+  margin: 1.5rem auto;
+  width: 65vw;
+  min-width: 200px;
+  max-width: 60%;
+}
+
+.UserRegistration .error {
+  color: rgb(245, 85, 85);
+}

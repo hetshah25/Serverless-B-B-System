@@ -1,0 +1,64 @@
+.App {
+  text-align: center;
+  z-index: 0;
+  /* background-color: #92b9b975; */
+  /* margin-top: 30px;
+   margin-left: 30px;
+   margin-right: 30px; */
+
+}
+
+.container-table {
+  padding: 100px;
+
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  z-index: 0;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+
+  @media screen and (max-width: 200px) {
+    .App {
+      width: 100%;
+    }
+  }
+}
+
+.App-header {
+  z-index: 0;
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  z-index: 0;
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.MTableHeader-header-13 {
+  color: #61dafb;
+  background-color: blue;
+}

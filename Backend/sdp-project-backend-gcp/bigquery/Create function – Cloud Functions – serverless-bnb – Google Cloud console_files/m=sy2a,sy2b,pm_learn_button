@@ -1,0 +1,22 @@
+"use strict";this.default_r_brihhbn=this.default_r_brihhbn||{};(function(_){var window=this;
+try{
+var nK=class extends _.fn{};nK.\u0275fac=function(){let a;return function(b){return(a||(a=_.Xc(nK)))(b||nK)}}();nK.\u0275prov=_.m({token:nK,factory:function(a){return a?new a:_.p(_.ln).create("globalLearnButtonBooleanStateId",{angularJsCacheId:"learnbuttonservice-bool"})},providedIn:"root"});
+var oK=class extends _.V4a{};oK.\u0275fac=function(){let a;return function(b){return(a||(a=_.Xc(oK)))(b||oK)}}();oK.\u0275prov=_.m({token:oK,factory:function(a){return a?new a:_.p(_.kr).get("learnbuttonservice-click-event")},providedIn:"root"});
+var pK=class{constructor(a,b){this.booleanState=a;this.learnButtonClickNotification=b;this.isLearnButtonVisible=this.booleanState.onValueChangeFilterReplay("learnbuttonservice-learn-button-shown").pipe(_.vf({bufferSize:1,refCount:!0}))}};pK.\u0275fac=function(a){return new (a||pK)(_.p(nK),_.p(oK))};pK.\u0275prov=_.m({token:pK,factory:pK.\u0275fac,providedIn:"root"});_.qK=class extends pK{};_.qK.\u0275fac=function(){let a;return function(b){return(a||(a=_.Xc(_.qK)))(b||_.qK)}}();
+_.qK.\u0275prov=_.m({token:_.qK,factory:function(){return _.zc(pK)},providedIn:"root"});var rK=class{};rK.\u0275fac=function(a){return new (a||rK)};rK.\u0275mod=_.Bc({type:rK,id:"pm_learn_button_service"});rK.\u0275inj=_.tc({providers:[{provide:_.bm,useValue:{LearnButtonService:_.qK}}],imports:[_.bp]});_.vd(rK,"pm_learn_button_service");
+
+}catch(e){_._DumpException(e)}
+try{
+_.og("pm_learn_button");
+
+var y4b=function(a){if(a&1){const b=_.Pc();_.E(0,"cfc-action-bar-content")(1,"div",1)(2,"button",2,3);_.L("click",function(){_.t(b);const c=_.N();return _.u(c.onClick())});_.I(4,"ace-icon",4);_.E(5,"span",null,5);_.K(7,6);_.F()()()()}a&2&&(a=_.N(),_.x(2),_.C("ve",a.veIds.NeosLearnButton)("veClick",!0))},z4b=["learnButton"],A4b=class{constructor(a){this.learnButtonService=a;this.veIds={NeosLearnButton:120908};this.hasBeenClicked=!1;this.isLearnButtonVisible=this.learnButtonService.isLearnButtonVisible}set learnButton(a){a&&
+this.hasBeenClicked&&(a.nativeElement.focus(),this.hasBeenClicked=!1)}onClick(){this.learnButtonService.learnButtonClickNotification.emit();this.hasBeenClicked=!0}};A4b.\u0275fac=function(a){return new (a||A4b)(_.A(_.qK))};
+A4b.\u0275cmp=_.q({type:A4b,selectors:[["learn-button"]],viewQuery:function(a,b){a&1&&_.Oe(z4b,5,_.ad);if(a&2){let c;_.Ne(c=_.Qe())&&(b.learnButton=c.first)}},decls:2,vars:3,consts:function(){return[[4,"ngIf"],[1,"cfc-action-bar-content-right"],["cfcCollapsibleButton","","mat-button","","aria-label","Open Learn panel",1,"help-panel-toggle-button",3,"ve","veClick","click"],["learnButton",""],"iconset shell icon school size small".split(" "),["collapsibleText",""]," Learn "]},template:function(a,b){a&
+1&&(_.P(0,y4b,8,2,"cfc-action-bar-content",0),_.Zd(1,"async"));a&2&&_.C("ngIf",_.$d(1,1,b.isLearnButtonVisible))},dependencies:[_.SB,_.Uu,_.wt,_.ll,_.xo,_.ot,_.lt,_.jt,_.pl],encapsulation:2,changeDetection:0});
+var sK=class{};sK.\u0275fac=function(a){return new (a||sK)};sK.\u0275mod=_.Bc({type:sK,id:"pm_learn_button"});sK.\u0275inj=_.tc({providers:[{provide:_.bm,useValue:{LearnButton:A4b}}],imports:[_.XB,_.Vu,_.ql,_.bp,_.Go,_.qt]});_.vd(sK,"pm_learn_button");
+
+_.pg();
+
+}catch(e){_._DumpException(e)}
+}).call(this,this.default_r_brihhbn);
+// Google Inc.

@@ -1,0 +1,20 @@
+"use strict";this.default_r_brihhbn=this.default_r_brihhbn||{};(function(_){var window=this;
+try{
+_.og("pm_release_notes_action_bar_button");
+
+var e5b=function(a){if(a&1){const b=_.Pc();_.E(0,"cfc-action-bar-content")(1,"div",1)(2,"button",2);_.L("click",function(){_.t(b);const c=_.N();return _.u(c.openReleaseNotesSubtask())});_.I(3,"ace-icon",3);_.E(4,"span",null,4);_.K(6,5);_.F()()()()}},NK=class{constructor(a){this.analyticsService=a}sendEvent(a,b,c){this.analyticsService.sendEvent({name:"releaseNotes",type:a,metadata:Object.assign({},{action:b,isMobile:500>=window.innerWidth},c)})}recordExperimentExposure(a){this.analyticsService.recordExperimentExposure(a)}};
+NK.\u0275fac=function(a){return new (a||NK)(_.p(_.sq))};NK.\u0275prov=_.m({token:NK,factory:NK.\u0275fac,providedIn:"root"});
+var f5b={moduleId:"pm_release_notes_subtask_service_module",className:"ReleaseNotesSubtaskService"},i5b=function(a){const b=g5b(a);h5b(a).then(d=>{d.openSubtask(b)});const c={products:b.join(",")};a.releaseNotesAnalyticsService.sendEvent("subtask","actionBarButtonClicked",c)},j5b=function(a){const b=g5b(a);h5b(a).then(c=>{c.preFetchReleaseNotes(b)})},g5b=function(a){return(a=a.currentSectionId?_.AXa.get(a.currentSectionId):void 0)?a.productTitles:[]},h5b=function(a){return a.releaseNotesSubtaskService?
+Promise.resolve(a.releaseNotesSubtaskService):_.jh(a.deferredLoader,f5b).then(b=>a.releaseNotesSubtaskService=b)},OK=class{constructor(a,b,c,d){this.deferredLoader=a;this.navService=b;this.releaseNotesAnalyticsService=c;this.stateService=d;this.releaseNotesActionBarButtonShowState=_.kn(this.stateService,"globalReleaseNotesActionBarButtonShowStateCacheId",!1,{oldKeyConfig:{oldKey:"releaseNotesActionBarButtonShowStateCacheKey",readFromOld:!0}});this.releaseNotesActionBarButtonOpenState=_.jn(this.stateService,
+"globalReleaseNotesActionBarButtonOpenStateCacheId",{oldKeyConfig:{oldKey:"releaseNotesActionBarButtonOpenStateCacheKey",readFromOld:!0}});this.showReleaseNotesButton=_.gn(this.releaseNotesActionBarButtonShowState);this.navService.currentSection.pipe(_.U(e=>null==e?void 0:e.id)).subscribe(e=>{if(this.currentSectionId=e)e=!!_.AXa.get(e),this.releaseNotesActionBarButtonShowState.next(e)});_.Kf()||_.gn(this.releaseNotesActionBarButtonOpenState).subscribe(e=>{e&&i5b(this)});this.showReleaseNotesButton.subscribe(e=>
+{!_.Kf()&&e&&j5b(this)})}openReleaseNotesSubtask(){this.releaseNotesActionBarButtonOpenState.next(!0)}};OK.\u0275fac=function(a){return new (a||OK)(_.p(_.ih),_.p(_.lp),_.p(NK),_.p(_.ln))};OK.\u0275prov=_.m({token:OK,factory:OK.\u0275fac,providedIn:"root"});
+var k5b=class{constructor(a){this.releaseNotesActionBarButtonService=a;this.showReleaseNotesButton=this.releaseNotesActionBarButtonService.showReleaseNotesButton}openReleaseNotesSubtask(){this.releaseNotesActionBarButtonService.openReleaseNotesSubtask()}};k5b.\u0275fac=function(a){return new (a||k5b)(_.A(OK))};
+k5b.\u0275cmp=_.q({type:k5b,selectors:[["release-notes-action-bar-button"]],decls:2,vars:3,consts:function(){return[[4,"ngIf"],[1,"cfc-action-bar-content-right"],["cfcCollapsibleButton","","mat-button","","aria-label","Open Release Notes",1,"release-notes-action-bar-button",3,"click"],"iconset shell icon release-notes size small".split(" "),["collapsibleText",""]," Release Notes "]},template:function(a,b){a&1&&(_.P(0,e5b,7,0,"cfc-action-bar-content",0),_.Zd(1,"async"));a&2&&_.C("ngIf",_.$d(1,1,b.showReleaseNotesButton))},
+dependencies:[_.SB,_.ll,_.ot,_.lt,_.jt,_.xo,_.pl],encapsulation:2,changeDetection:0});
+var PK=class{};PK.\u0275fac=function(a){return new (a||PK)};PK.\u0275mod=_.Bc({type:PK,id:"pm_release_notes_action_bar_button"});PK.\u0275inj=_.tc({providers:[{provide:_.bm,useValue:{ReleaseNotesActionBarButton:k5b}}],imports:[_.bp,_.XB,_.ql,_.qt,_.Go]});_.vd(PK,"pm_release_notes_action_bar_button");
+
+_.pg();
+
+}catch(e){_._DumpException(e)}
+}).call(this,this.default_r_brihhbn);
+// Google Inc.

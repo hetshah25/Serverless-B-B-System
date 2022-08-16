@@ -1,0 +1,19 @@
+img {
+  width: 200px !important;
+  height: auto;
+}
+
+.card {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+  align-items: center;
+}
+
+input#email {
+  border: 1px solid black;
+}
+
+#sub_btn {
+  margin: auto;
+}

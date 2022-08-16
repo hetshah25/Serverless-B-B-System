@@ -1,0 +1,28 @@
+.set-btn-style {
+  display: contents;
+  color: white;
+}
+
+.set-btn-style:hover {
+  color: white;
+}
+
+#dropdown-basic-button {
+  color: white;
+}
+#navbarDarkDropdownMenuLink {
+  position: relative;
+  z-index: 999;
+}
+
+.set-navbar-style {
+  display: inline-block;
+  z-index: 1;
+  position: relative;
+  width: 100%;
+  background-size: contain;
+}
+
+.search-form {
+  display: flex;
+}

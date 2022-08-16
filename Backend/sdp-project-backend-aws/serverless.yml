@@ -1,0 +1,34 @@
+app: aws-node-express-dynamodb-api-project
+service: sdp-project-backend-aws
+frameworkVersion: "3"
+
+provider:
+  name: aws
+  runtime: nodejs14.x
+  stage: prod
+
+functions:
+  users:
+    handler: handler.handler
+    events:
+      - httpApi:
+          path: /users/{any+}
+          method: ANY
+  orders:
+    handler: handler.handler
+    events:
+      - httpApi:
+          path: /orders/{any+}
+          method: ANY
+  bookings:
+    handler: handler.handler
+    events:
+      - httpApi:
+          path: /bookings/{any+}
+          method: ANY
+  caesar:
+    handler: handler.handler
+    events:
+      - httpApi:
+          path: /caesar/{any+}
+          method: ANY
