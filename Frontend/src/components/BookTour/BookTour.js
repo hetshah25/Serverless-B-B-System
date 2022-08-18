@@ -37,7 +37,7 @@ const BookTour = ({ logoutOfBnB }) => {
       headers: {
         "Content-Type": "application/json",
         Authorization:
-          "Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjA3NGI5MjhlZGY2NWE2ZjQ3MGM3MWIwYTI0N2JkMGY3YTRjOWNjYmMiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJhY2NvdW50cy5nb29nbGUuY29tIiwiYXpwIjoiNjE4MTA0NzA4MDU0LTlyOXMxYzRhbGczNmVybGl1Y2hvOXQ1Mm4zMm42ZGdxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwiYXVkIjoiNjE4MTA0NzA4MDU0LTlyOXMxYzRhbGczNmVybGl1Y2hvOXQ1Mm4zMm42ZGdxLmFwcHMuZ29vZ2xldXNlcmNvbnRlbnQuY29tIiwic3ViIjoiMTA5NDY2OTQ5MTE4NjQ2NTQ3MjI2IiwiZW1haWwiOiJtZW5rc2FyZWVuQGdtYWlsLmNvbSIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJhdF9oYXNoIjoiWkwwbmNYa3FOc0hZUk82S0xVNXhjdyIsImlhdCI6MTY1ODUzNTE0MywiZXhwIjoxNjU4NTM4NzQzLCJqdGkiOiJkNTFlNzcwZThmNGMzM2JhN2MwMDc1YjI1N2I1NGZhZjNlNTczMjFiIn0.lPOjtS3LRTBws73tVsk_KN1QzHx2LpXEJohrZ_mF1OwtQR0dN7c8BAlkZu8SJ7CiBf4CDR6B9rv_rSGHuSD5INiaZRyeioACgJIV66M73ZAxjYlVZhNwnOP67cZk8PDkjkIK7vGnyXZqjr9qGo4HXnvRnHmUrntd_kXmSaGIXlePwTB2yffO7GCtlBTzx_IgQ3S4mPfI2Z6niteRVaYuyCyZnp1Ylwc2AUYB6wmJPAeIzoSIx1ymlrsDewPqmTMesmqgvD7zs9mAv7iRzC-2iCZTzaFFD5UQ4ZTbKzyFZbcjWzjinuDKORqwAAIJqWJS2gywS1GrJFnPVDVls3nkMA",
+          "Bearer ",
       },
     };
     axios(config)
